@@ -38,7 +38,7 @@ const Users = () => {
         }
       })
       .catch((err) => console.error(err));
-  });
+  }, []);
 
   useEffect(() => {
     const onbeforeunloadFn = () => {
@@ -68,7 +68,7 @@ const Users = () => {
     return () => {
       window.removeEventListener("beforeunload", onbeforeunloadFn);
     };
-  });
+  }, []);
 
   return (
     <div className="p-20">
