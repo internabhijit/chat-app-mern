@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  background-color: #fff;
+  color: #444;
+}
+
+.p-20 {
+  padding: 20px;
+}

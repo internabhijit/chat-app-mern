@@ -1,0 +1,16 @@
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.img {
+  width: 50%;
+}
+
+.card-container {
+  padding: 2px 16px;
+}
