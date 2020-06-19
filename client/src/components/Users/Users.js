@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import ScrollToBottom from "react-scroll-to-bottom";
 import { useHistory } from "react-router-dom";
 
-import { HostUrl } from "../../config/connection";
 import "whatwg-fetch";
 import "./Users.css";
 import User from "../User/User";
@@ -39,7 +38,7 @@ const Users = () => {
         }
       })
       .catch((err) => console.error(err));
-  }, []);
+  });
 
   useEffect(() => {
     const onbeforeunloadFn = () => {
@@ -69,7 +68,7 @@ const Users = () => {
     return () => {
       window.removeEventListener("beforeunload", onbeforeunloadFn);
     };
-  }, []);
+  });
 
   return (
     <div className="p-20">

@@ -39,7 +39,7 @@ const Chat = ({ location }) => {
       socket.emit("disconnect");
       socket.off();
     };
-  }, [HostUrl, location.search]);
+  }, [location.search]);
 
   // Get Message List From Db
   useEffect(() => {

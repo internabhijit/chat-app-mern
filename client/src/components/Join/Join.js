@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import { useHistory } from "react-router-dom";
 import { setInStorage } from "../../utils/storage";
-import { HostUrl } from "../../config/connection";
 
 import "whatwg-fetch";
 import "./Join.css";

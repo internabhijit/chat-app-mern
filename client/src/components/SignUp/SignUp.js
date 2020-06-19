@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { HostUrl } from "../../config/connection";
 
 import "whatwg-fetch";
 import "../Join/Join.css";
